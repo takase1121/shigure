@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "description": "CLI for Shigure",
   "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "bin": {
+    "shigure": "dist/index.js"
+  },
   "files": [
     "dist/*"
   ],
