@@ -1,6 +1,6 @@
 {
   "name": "@shigure/cli",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "CLI for Shigure",
   "main": "dist/index.js",
   "bin": {
@@ -19,8 +19,8 @@
   "author": "takase1121",
   "license": "ISC",
   "dependencies": {
-    "mri": "^1.1.6",
-    "@shigure/core": "^1.0.0"
+    "@shigure/core": "^1.0.1",
+    "mri": "^1.1.6"
   },
   "devDependencies": {
     "@shigure/base": "^1.0.3",
