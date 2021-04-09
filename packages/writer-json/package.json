@@ -18,5 +18,6 @@
   "devDependencies": {
     "@shigure/base": "^1.0.1",
     "typescript": "^4.2.4"
-  }
+  },
+  "gitHead": "70670d04a52204ceb2f003a030deeb864f8fabe7"
 }
