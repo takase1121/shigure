@@ -1,0 +1,11 @@
+{
+  "name": "@shigure/base",
+  "version": "1.0.0",
+  "description": "Common classes for Shigure",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["doc", "shigure"],
+  "author": "takase1121",
+  "license": "ISC",
+  "dependencies": {}
+}
