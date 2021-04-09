@@ -1,6 +1,6 @@
 {
   "name": "@shigure/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI for Shigure",
   "main": "dist/index.js",
   "files": [
@@ -20,7 +20,7 @@
     "picomatch": "^2.2.2"
   },
   "devDependencies": {
-    "@shigure/base": "^1.0.1",
+    "@shigure/base": "^1.0.2",
     "@types/mri": "^1.1.0",
     "@types/picomatch": "^2.2.1",
     "@types/pump": "^1.1.1",
