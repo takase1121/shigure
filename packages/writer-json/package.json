@@ -2,7 +2,10 @@
   "name": "@shigure/writer-json",
   "version": "1.0.0",
   "description": "JSON writer for shigure",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc -p ."
   },
