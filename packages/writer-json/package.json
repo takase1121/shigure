@@ -1,6 +1,6 @@
 {
   "name": "@shigure/writer-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON writer for shigure",
   "main": "dist/index.js",
   "files": [
@@ -9,11 +9,14 @@
   "scripts": {
     "build": "tsc -p ."
   },
-  "keywords": ["doc", "shigure"],
+  "keywords": [
+    "doc",
+    "shigure"
+  ],
   "author": "takase1121",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.2.4",
-    "@shigure/base": "^1.0.0"
+    "@shigure/base": "^1.0.1",
+    "typescript": "^4.2.4"
   }
 }

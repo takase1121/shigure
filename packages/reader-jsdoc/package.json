@@ -1,6 +1,6 @@
 {
   "name": "@shigure/reader-jsdoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JsDoc Reader for Shigure",
   "main": "dist/index.js",
   "files": [
@@ -10,15 +10,18 @@
     "peg": "pegjs -o dist/jsdoctype.js jsdoctype.pegjs",
     "build": "tsc -p . && npm run peg"
   },
-  "keywords": ["doc", "shigure"],
+  "keywords": [
+    "doc",
+    "shigure"
+  ],
   "author": "takase1121",
   "license": "ISC",
   "dependencies": {
     "comment-parser": "^1.1.4"
   },
   "devDependencies": {
+    "@shigure/base": "^1.0.1",
     "pegjs": "^0.10.0",
-    "typescript": "^4.2.4",
-    "@shigure/base": "^1.0.0"
+    "typescript": "^4.2.4"
   }
 }
