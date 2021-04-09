@@ -1,0 +1,22 @@
+{
+  "name": "@shigure/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@shigure/base": "^1.0.3",
+    "@types/picomatch": "^2.2.1",
+    "@types/pump": "^1.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "picomatch": "^2.2.2",
+    "pump": "^3.0.0"
+  }
+}

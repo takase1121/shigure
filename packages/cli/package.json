@@ -20,8 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "mri": "^1.1.6",
-    "picomatch": "^2.2.2",
-    "pump": "^3.0.0"
+    "@shigure/core": "^1.0.0"
   },
   "devDependencies": {
     "@shigure/base": "^1.0.3",
