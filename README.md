@@ -29,5 +29,5 @@ shigure -c config.js
 
 ## Readers and Writers
 
-Currently, only [JSDoc Reader](https://github.com/takase1121/shigure/tree/master/packages/reader-jsdoc) and [JSON Writer](https://github.com/takase1121/shigure/tree/master/packages/writer-json) are available. Other readers and writers are planned.
+Currently, [JSDoc Reader](https://github.com/takase1121/shigure/tree/master/packages/reader-jsdoc), [JSON Writer](https://github.com/takase1121/shigure/tree/master/packages/writer-json) and [handlebars Writer](https://github.com/takase1121/shigure/tree/master/packages/writer-handlebars) are available. handlebars is probably flexible enough for most use cases, so I'm not planning to add new Writers.
 
