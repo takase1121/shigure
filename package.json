@@ -6,7 +6,10 @@
     "lint": "eslint packages/**/*.ts",
     "build": "lerna run build"
   },
-  "keywords": ["doc", "shigure"],
+  "keywords": [
+    "doc",
+    "shigure"
+  ],
   "author": "takase1121",
   "license": "ISC",
   "devDependencies": {
