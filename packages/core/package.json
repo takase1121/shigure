@@ -1,6 +1,6 @@
 {
   "name": "@shigure/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dest/index.js",
   "files": [
