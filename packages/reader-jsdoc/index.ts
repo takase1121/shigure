@@ -14,6 +14,7 @@ const commandTags = filterTag('command')
 const argumentTags = filterTag('param')
 const aliasTags = filterTag('alias')
 const exampleTags = filterTag('example')
+const categoryTags = filterTag('category')
 
 function parseType(type: string) {
     let rest = false
@@ -34,6 +35,17 @@ const populateAliases = (comment: Block) =>
             if (alias.name)
                 arr.push(alias.name)
             alias.description.split(/\s+/g)
+                .filter(token => token.length > 0)
+                .forEach(token => arr.push(token))
+            return arr
+        }, [] as string[])
+
+const populateCategories = (comment: Block) =>
+    categoryTags(comment)
+        .reduce((arr, category) => {
+            if (category.name)
+                arr.push(category.name)
+            category.description.split(/\s+/g)
                 .filter(token => token.length > 0)
                 .forEach(token => arr.push(token))
             return arr
@@ -60,7 +72,8 @@ const populateCommand = (comment: Block) => ({
     arguments: populateArguments(comment),
     description: comment.description,
     aliases: populateAliases(comment),
-    examples: populateExamples(comment)
+    examples: populateExamples(comment),
+    category: populateCategories(comment)
 })
 
 const isCommand = (comment: Block) => commandTags(comment).length !== 0
