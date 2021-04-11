@@ -18,6 +18,7 @@ export interface Command {
     description?: string
     aliases?: string[]
     examples?: string[]
+    category?: string[]
 }
 
 export type TransformCb = (error?: Error, data?: never) => void

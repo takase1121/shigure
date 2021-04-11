@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "Common classes for Shigure",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {},
   "keywords": [
     "doc",
