@@ -1,6 +1,6 @@
 {
   "name": "@shigure/base",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Common classes for Shigure",
   "main": "index.js",
   "types": "index.d.ts",
